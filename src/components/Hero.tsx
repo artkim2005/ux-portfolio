@@ -1,5 +1,4 @@
 import { AuroraBackground } from "./ui/aurora-background";
-import { BackgroundGradientAnimation } from "./ui/background-gradient-animation";
 import { FlipWords } from "./ui/flip-words";
 
 interface HeroProps {
