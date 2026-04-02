@@ -30,7 +30,7 @@ export default function CaseStudyModal({ onClose }: CaseStudyModalProps) {
           className={`overflow-hidden relative h-52 rounded-t-3xl bg-black flex items-center justify-center`}
         >
           <img
-            src="/src/assets/spotify_thumb.png"
+            src="/ux-portfolio/src/assets/spotify_thumb.png"
             alt="spotify_thumb"
             className="scale-150"
           />
@@ -79,7 +79,7 @@ export default function CaseStudyModal({ onClose }: CaseStudyModalProps) {
               UI Elements, Technical Issues, and Algorithm.
             </p>
             <img
-              src="/src/assets/AffinityMap.png"
+              src="/ux-portfolio/src/assets/AffinityMap.png"
               alt="affinity map"
               className="scale-100 invert"
             />
@@ -95,17 +95,17 @@ export default function CaseStudyModal({ onClose }: CaseStudyModalProps) {
             </p>
             <div className="flex justify-between mt-10">
               <img
-                src="/src/assets/IMG_4966.jpg"
+                src="/ux-portfolio/src/assets/IMG_4966.jpg"
                 alt="wireframe1"
                 className="scale-100 w-80 h-80"
               />
               <img
-                src="/src/assets/IMG_4967.jpg"
+                src="/ux-portfolio/src/assets/IMG_4967.jpg"
                 alt="wireframe1"
                 className="scale-100 w-80 h-80"
               />
               <img
-                src="/src/assets/IMG_4968.jpg"
+                src="/ux-portfolio/src/assets/IMG_4968.jpg"
                 alt="wireframe1"
                 className="scale-100 w-80 h-80"
               />
@@ -115,24 +115,24 @@ export default function CaseStudyModal({ onClose }: CaseStudyModalProps) {
           <Section title="Figma Prototype">
             <div className="flex justify-between mt-10">
               <img
-                src="/src/assets/iPhone 17 - 1.png"
+                src="/ux-portfolio/src/assets/iPhone 17 - 1.png"
                 alt="wireframe1"
                 className="scale-100 w-80"
               />
               <img
-                src="/src/assets/iPhone 17 - 2.png"
+                src="/ux-portfolio/src/assets/iPhone 17 - 2.png"
                 alt="wireframe1"
                 className="scale-100 w-80"
               />
               <img
-                src="/src/assets/iPhone 17 - 3.png"
+                src="/ux-portfolio/src/assets/iPhone 17 - 3.png"
                 alt="wireframe1"
                 className="scale-100 w-80"
               />
             </div>
             <div className="flex justify-between mt-10">
               <img
-                src="/src/assets/iPhone 17 - 4.png"
+                src="/ux-portfolio/src/assets/iPhone 17 - 4.png"
                 alt="wireframe1"
                 className="scale-100 w-80"
               />
@@ -142,7 +142,7 @@ export default function CaseStudyModal({ onClose }: CaseStudyModalProps) {
                 className="scale-100 w-80"
               />
               <img
-                src="/src/assets/iPhone 17 - 6.png"
+                src="/ux-portfolio/src/assets/iPhone 17 - 6.png"
                 alt="wireframe1"
                 className="scale-100 w-80"
               />

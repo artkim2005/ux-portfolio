@@ -13,7 +13,7 @@ export default function CaseStudyCard({ onOpen }: CaseStudyCardProps) {
         className={`h-56 bg-black flex items-center justify-center relative overflow-hidden`}
       >
         <img
-          src="/src/assets/travel-thumb.png"
+          src="/ux-portfolio/src/assets/travel-thumb.png"
           alt="travel thumb"
           className="scale-200 mr-50"
         />

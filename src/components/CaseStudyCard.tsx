@@ -13,7 +13,7 @@ export default function CaseStudyCard({ onOpen }: CaseStudyCardProps) {
         className={`h-56 bg-black flex items-center justify-center relative overflow-hidden`}
       >
         <img
-          src="/src/assets/spotify_thumb.png"
+          src="/ux-portfolio/src/assets/spotify_thumb.png"
           alt="spotify_thumb"
           className="scale-150"
         />
