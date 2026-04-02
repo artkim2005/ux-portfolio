@@ -1,3 +1,5 @@
+import thumb from "../../src/assets/spotify_thumb.png";
+
 interface CaseStudyCardProps {
   onOpen: (state: boolean) => void;
 }
@@ -12,11 +14,7 @@ export default function CaseStudyCard({ onOpen }: CaseStudyCardProps) {
       <div
         className={`h-56 bg-black flex items-center justify-center relative overflow-hidden`}
       >
-        <img
-          src="/ux-portfolio/src/assets/spotify_thumb.png"
-          alt="spotify_thumb"
-          className="scale-150"
-        />
+        <img src={thumb} alt="spotify_thumb" className="scale-150" />
         <div className="absolute inset-0 bg-black/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
       </div>
 
