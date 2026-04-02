@@ -1,4 +1,12 @@
 import { useEffect } from "react";
+import thumb from "../../src/assets/travel-thumb.png";
+import wireframe1 from "../../src/assets/IMG_4973.jpg";
+import wireframe2 from "../../src/assets/IMG_4974.jpg";
+import screen1 from "../../src/assets/Travel-1.png";
+import screen2 from "../../src/assets/Travel-2.png";
+import screen3 from "../../src/assets/Travel-3.png";
+import screen4 from "../../src/assets/Travel-4.png";
+import screen5 from "../../src/assets/Travel-5.png";
 
 interface CaseStudyModalProps {
   onClose: () => void;
@@ -29,11 +37,7 @@ export default function CaseStudy2({ onClose }: CaseStudyModalProps) {
         <div
           className={`overflow-hidden relative h-52 rounded-t-3xl bg-black flex items-center justify-center`}
         >
-          <img
-            src="/ux-portfolio/src/assets/travel-thumb.png"
-            alt="travel thumb"
-            className="scale-150 mr-80"
-          />
+          <img src={thumb} alt="travel thumb" className="scale-150 mr-80" />
           <button
             onClick={onClose}
             className="absolute top-4 right-4 w-9 h-9 bg-white/20 hover:bg-white/40 rounded-full flex items-center justify-center transition-colors cursor-pointer"
@@ -93,12 +97,12 @@ export default function CaseStudy2({ onClose }: CaseStudyModalProps) {
             </p>
             <div className="columns-2 mt-10">
               <img
-                src="/ux-portfolio/src/assets/IMG_4973.jpg"
+                src={wireframe1}
                 alt="wireframe1"
                 className="scale-100 w-130 object-contain object-top"
               />
               <img
-                src="/ux-portfolio/src/assets/IMG_4974.jpg"
+                src={wireframe2}
                 alt="wireframe1"
                 className="scale-100 w-130 object-contain object-top"
               />
@@ -108,27 +112,27 @@ export default function CaseStudy2({ onClose }: CaseStudyModalProps) {
           <Section title="Figma Prototype">
             <div className="columns-3 mt-10 space-y-10 gap-x-10">
               <img
-                src="/ux-portfolio/src/assets/Travel-1.png"
+                src={screen1}
                 alt="wireframe1"
                 className="scale-100 w-80 object-contain object-top"
               />
               <img
-                src="/ux-portfolio/src/assets/Travel-2.png"
+                src={screen2}
                 alt="wireframe1"
                 className="scale-100 w-80 object-contain object-top"
               />
               <img
-                src="/ux-portfolio/src/assets/Travel-3.png"
+                src={screen3}
                 alt="wireframe1"
                 className="scale-100 w-80 object-contain object-top"
               />
               <img
-                src="/ux-portfolio/src/assets/Travel-4.png"
+                src={screen4}
                 alt="wireframe1"
                 className="scale-100 w-80 object-contain object-top"
               />
               <img
-                src="/ux-portfolio/src/assets/Travel-5.png"
+                src={screen5}
                 alt="wireframe1"
                 className="scale-100 w-80 object-contain object-top"
               />

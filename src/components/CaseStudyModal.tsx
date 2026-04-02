@@ -1,5 +1,17 @@
 import { useEffect } from "react";
 
+import thumb from "../../src/assets/spotify_thumb.png";
+import affinitymap from "../../src/assets/AffinityMap.png";
+import wireframe1 from "../../src/assets/IMG_4966.jpg";
+import wireframe2 from "../../src/assets/IMG_4967.jpg";
+import wireframe3 from "../../src/assets/IMG_4968.jpg";
+import screen1 from "../../src/assets/iPhone 17 - 1.png";
+import screen2 from "../../src/assets/iPhone 17 - 2.png";
+import screen3 from "../../src/assets/iPhone 17 - 3.png";
+import screen4 from "../../src/assets/iPhone 17 - 4.png";
+import screen5 from "../../src/assets/iPhone 17 - 5.png";
+import screen6 from "../../src/assets/iPhone 17 - 6.png";
+
 interface CaseStudyModalProps {
   onClose: () => void;
 }
@@ -29,11 +41,7 @@ export default function CaseStudyModal({ onClose }: CaseStudyModalProps) {
         <div
           className={`overflow-hidden relative h-52 rounded-t-3xl bg-black flex items-center justify-center`}
         >
-          <img
-            src="/ux-portfolio/src/assets/spotify_thumb.png"
-            alt="spotify_thumb"
-            className="scale-150"
-          />
+          <img src={thumb} alt="spotify_thumb" className="scale-150" />
           <button
             onClick={onClose}
             className="absolute top-4 right-4 w-9 h-9 bg-white/20 hover:bg-white/40 rounded-full flex items-center justify-center transition-colors cursor-pointer"
@@ -79,7 +87,7 @@ export default function CaseStudyModal({ onClose }: CaseStudyModalProps) {
               UI Elements, Technical Issues, and Algorithm.
             </p>
             <img
-              src="/ux-portfolio/src/assets/AffinityMap.png"
+              src={affinitymap}
               alt="affinity map"
               className="scale-100 invert"
             />
@@ -95,17 +103,17 @@ export default function CaseStudyModal({ onClose }: CaseStudyModalProps) {
             </p>
             <div className="flex justify-between mt-10">
               <img
-                src="/ux-portfolio/src/assets/IMG_4966.jpg"
+                src={wireframe1}
                 alt="wireframe1"
                 className="scale-100 w-80 h-80"
               />
               <img
-                src="/ux-portfolio/src/assets/IMG_4967.jpg"
+                src={wireframe2}
                 alt="wireframe1"
                 className="scale-100 w-80 h-80"
               />
               <img
-                src="/ux-portfolio/src/assets/IMG_4968.jpg"
+                src={wireframe3}
                 alt="wireframe1"
                 className="scale-100 w-80 h-80"
               />
@@ -114,38 +122,14 @@ export default function CaseStudyModal({ onClose }: CaseStudyModalProps) {
 
           <Section title="Figma Prototype">
             <div className="flex justify-between mt-10">
-              <img
-                src="/ux-portfolio/src/assets/iPhone 17 - 1.png"
-                alt="wireframe1"
-                className="scale-100 w-80"
-              />
-              <img
-                src="/ux-portfolio/src/assets/iPhone 17 - 2.png"
-                alt="wireframe1"
-                className="scale-100 w-80"
-              />
-              <img
-                src="/ux-portfolio/src/assets/iPhone 17 - 3.png"
-                alt="wireframe1"
-                className="scale-100 w-80"
-              />
+              <img src={screen1} alt="wireframe1" className="scale-100 w-80" />
+              <img src={screen2} alt="wireframe1" className="scale-100 w-80" />
+              <img src={screen3} alt="wireframe1" className="scale-100 w-80" />
             </div>
             <div className="flex justify-between mt-10">
-              <img
-                src="/ux-portfolio/src/assets/iPhone 17 - 4.png"
-                alt="wireframe1"
-                className="scale-100 w-80"
-              />
-              <img
-                src="/src/assets/iPhone 17 - 5.png"
-                alt="wireframe1"
-                className="scale-100 w-80"
-              />
-              <img
-                src="/ux-portfolio/src/assets/iPhone 17 - 6.png"
-                alt="wireframe1"
-                className="scale-100 w-80"
-              />
+              <img src={screen4} alt="wireframe1" className="scale-100 w-80" />
+              <img src={screen5} alt="wireframe1" className="scale-100 w-80" />
+              <img src={screen6} alt="wireframe1" className="scale-100 w-80" />
             </div>
           </Section>
 
