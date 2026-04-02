@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import Logo from "/src/assets/ak_logo.svg";
 
 interface NavProps {
@@ -6,14 +5,6 @@ interface NavProps {
 }
 
 export default function Nav({ onNavigate }: NavProps) {
-  const [scrolled, setScrolled] = useState(false);
-
-  useEffect(() => {
-    const handler = () => setScrolled(window.scrollY > 20);
-    window.addEventListener("scroll", handler);
-    return () => window.removeEventListener("scroll", handler);
-  }, []);
-
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300`}
