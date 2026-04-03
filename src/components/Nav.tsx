@@ -27,7 +27,7 @@ export default function Nav({ onNavigate }: NavProps) {
         className={`max-w-8xl mx-auto px-6 h-20 flex items-center justify-between`}
       >
         <img className="w-15" src={Logo} alt="Logo" />
-        <div className="flex items-center gap-8">
+        <div className="hidden sm:flex items-center gap-8">
           {["Home", "About", "Work", "Contact"].map((label) => (
             <button
               key={label}

@@ -71,9 +71,9 @@ export default function CaseStudy2({ onClose }: CaseStudyModalProps) {
               particular service and focus on doing it well. That’s why I
               designed an app that is able to handle multiple related tasks,
               fusing together Google Maps, TripAdvisor, and Google Flights all
-              into a single package. [NAME] is the ultimate travel app designed
-              to be your ultimate travel tool, simplifying all of the tedious
-              parts of travel while featuring a sleek, minimal design.
+              into a single package. This app is designed to be your ultimate
+              travel tool, simplifying all of the tedious parts of travel while
+              featuring a sleek, minimal design.
             </p>
           </Section>
 
