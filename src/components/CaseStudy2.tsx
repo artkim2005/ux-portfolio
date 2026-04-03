@@ -95,7 +95,7 @@ export default function CaseStudy2({ onClose }: CaseStudyModalProps) {
               this in mind, I came up with a rudimentary design sketched out on
               paper, focusing on ease of use and cohesion.
             </p>
-            <div className="columns-2 mt-10">
+            <div className="grid md:grid-cols-2 grid-cols-1 gap-5 mt-10">
               <img
                 src={wireframe1}
                 alt="wireframe1"
@@ -110,7 +110,7 @@ export default function CaseStudy2({ onClose }: CaseStudyModalProps) {
           </Section>
 
           <Section title="Figma Prototype">
-            <div className="columns-3 mt-10 space-y-10 gap-x-10">
+            <div className="columns-3xs mt-10 space-y-10 gap-x-11">
               <img
                 src={screen1}
                 alt="wireframe1"

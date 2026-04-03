@@ -101,35 +101,21 @@ export default function CaseStudyModal({ onClose }: CaseStudyModalProps) {
               rather to fix important issues that would make the app a better
               user experience.
             </p>
-            <div className="flex justify-between mt-10">
-              <img
-                src={wireframe1}
-                alt="wireframe1"
-                className="scale-100 w-80 h-80"
-              />
-              <img
-                src={wireframe2}
-                alt="wireframe1"
-                className="scale-100 w-80 h-80"
-              />
-              <img
-                src={wireframe3}
-                alt="wireframe1"
-                className="scale-100 w-80 h-80"
-              />
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mt-10">
+              <img src={wireframe1} alt="wireframe1" className="scale-100" />
+              <img src={wireframe2} alt="wireframe1" className="scale-100" />
+              <img src={wireframe3} alt="wireframe1" className="scale-100" />
             </div>
           </Section>
 
           <Section title="Figma Prototype">
-            <div className="flex justify-between mt-10">
-              <img src={screen1} alt="wireframe1" className="scale-100 w-80" />
-              <img src={screen2} alt="wireframe1" className="scale-100 w-80" />
-              <img src={screen3} alt="wireframe1" className="scale-100 w-80" />
-            </div>
-            <div className="flex justify-between mt-10">
-              <img src={screen4} alt="wireframe1" className="scale-100 w-80" />
-              <img src={screen5} alt="wireframe1" className="scale-100 w-80" />
-              <img src={screen6} alt="wireframe1" className="scale-100 w-80" />
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mt-10">
+              <img src={screen1} alt="wireframe1" />
+              <img src={screen2} alt="wireframe1" />
+              <img src={screen3} alt="wireframe1" />
+              <img src={screen4} alt="wireframe1" />
+              <img src={screen5} alt="wireframe1" />
+              <img src={screen6} alt="wireframe1" />
             </div>
           </Section>
 

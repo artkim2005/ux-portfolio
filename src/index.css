@@ -14,7 +14,7 @@
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    @apply bg-background text-foreground;
+    background-color: black;
   }
   html {
     @apply font-sans;
