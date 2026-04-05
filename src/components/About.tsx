@@ -24,17 +24,17 @@ export default function About() {
           </h2>
           <div className="space-y-4 text-neutral-400 leading-relaxed">
             <p>
-              I'm a UX designer based in the Bay Area with a background in
+              I'm a UX designer based in Santa Barbara with a background in
               computer science. I care deeply about the space between what users
-              say they want and what they actually need, which is the most
-              important principle in UX design.
+              say they want and what they actually need, a principle that is
+              often overlooked in UX design.
             </p>
             <p>
               In addition to UX, I have experience in web development and data
               structures. I have taken numerous courses in computer science such
               as algorithms, assembly programming, and OOP. This knowledge has
-              helped inform me of what good design looks like, especially in
-              more technical contexts.
+              helped me understand what is technically feasible and how to
+              implement my designs.
             </p>
           </div>
         </div>

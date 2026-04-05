@@ -70,10 +70,12 @@ export default function CaseStudyModal({ onClose }: CaseStudyModalProps) {
           {/* Overview */}
           <Section title="Challenge">
             <p className="text-white leading-relaxed">
-              Spotify’s mobile UI/UX has been critiqued by users for being hard
-              to navigate and messy in general. The goal of this case study is
-              to understand the specific challenges users face when interacting
-              with Spotify’s UI and propose solutions to those problems.
+              Spotify’s mobile UI/UX establishes a solid foundation in terms of
+              balancing ease of use and functionality, but improvements can be
+              made. The goal of this case study is to understand the critiques
+              users have with Spotify's UX, specifically looking into issues
+              with navigation and layout, and propose solutions to elevate the
+              user experience not just visually but also practically.
             </p>
           </Section>
 
@@ -129,14 +131,14 @@ export default function CaseStudyModal({ onClose }: CaseStudyModalProps) {
               music section. This reduces the amount of scrolling needed to get
               to a particular section and categorizes the home page neatly. I
               also reduced the number of buttons as another major complaint was
-              that it looked to cluttered. For example, when viewing the "What's
-              New" section, there isn't a need for the user to add to a playlist
-              or download the song right away if they haven't even listened to
-              it yet. This makes the design a lot more user friendly. I also
-              redesigned the library to feature 3 sections as well, rather than
-              displaying everything in one massive list. Finally, I tweaked the
-              artist profile page to be more space efficient and made the new
-              release more prominent.
+              that it looked too cluttered. For example, when viewing the
+              "What's New" section, there isn't a need for the user to add to a
+              playlist or download the song right away if they haven't even
+              listened to it yet. This makes the design a lot more user
+              friendly. I also redesigned the library to feature 3 sections as
+              well, rather than displaying everything in one massive list.
+              Finally, I tweaked the artist profile page to be more space
+              efficient and made the new release more prominent.
             </p>
           </Section>
 
